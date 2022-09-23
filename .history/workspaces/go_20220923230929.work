@@ -1,0 +1,6 @@
+// 通过 go work init 创建生成本文件
+go 1.18
+
+use ./hello
+// 通过 o work use ./hello 生成
+// 必须存在 hello 这个模块才能使用 use 命令使用该模块
